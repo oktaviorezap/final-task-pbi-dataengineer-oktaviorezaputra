@@ -22,7 +22,7 @@ Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah
 
 <br>**Churn (Attrited) Customer before Predicted:**
 <br>![image](https://github.com/user-attachments/assets/2d46e087-15b9-4247-9d6f-a8c767de53aa)
-<br>**Churn (Attrited) Customer after Predicted:**
 <br>
 
+<br>**Churn (Attrited) Customer after Predicted:**
 <br>![image](https://github.com/user-attachments/assets/98df4d7b-3a58-48e7-86ca-890b6f20e9d5)
