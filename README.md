@@ -18,7 +18,11 @@ Create Churn Analysis to determine and predict customer that will churn (abandon
 
 # Project Result
 Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah](https://github.com/oktaviorezap/final-task-pbi-dataengineer-oktaviorezaputra/blob/main/(Full%20Code)%20OKTAVIO_REZA_PUTRA_TASK_5_DATA_ENGINEER_VIX_BTPNS.ipynb)
+<br>
+
 <br>**Churn (Attrited) Customer before Predicted:**
 <br>![image](https://github.com/user-attachments/assets/2d46e087-15b9-4247-9d6f-a8c767de53aa)
 <br>**Churn (Attrited) Customer after Predicted:**
+<br>
+
 <br>![image](https://github.com/user-attachments/assets/98df4d7b-3a58-48e7-86ca-890b6f20e9d5)
