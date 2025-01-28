@@ -35,7 +35,6 @@
   - The manager is particularly concerned about the lack of insights into why customers are leaving and how to prevent this trend.
   - Understanding the factors driving customer churn is critical to developing effective strategies to enhance customer satisfaction and retention.
 <br>
-<br>
 
 - **Project Objective**
   - The primary goal of this project is to analyze customer data and identify profiles of clients who are likely to discontinue their credit card services
