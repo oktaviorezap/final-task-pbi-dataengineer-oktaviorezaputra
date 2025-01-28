@@ -2,7 +2,7 @@
 1. **Project Background**
 2. **Dataset Description**
 3. **Determine Best Model**
-4. **Prediction Result (3 Model Algorithms)**
+4. **Prediction Result**
 5. **Business Impact Analysis Implementation**
 6. **Prediction Result Conclusion**
 
@@ -77,8 +77,8 @@ The best model:
 - `CatBoost`: Recall training and testing are quite balanced, no indication of overfitting or underfitting.
 - `XGBoost Classifier`: Very good performance with a fairly small difference between training and testing.
 
-# Project Result
-Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah](https://github.com/oktaviorezap/final-task-pbi-dataengineer-oktaviorezaputra/blob/main/(Full%20Code)%20OKTAVIO_REZA_PUTRA_TASK_5_DATA_ENGINEER_VIX_BTPNS.ipynb)
+# Prediction Result
+Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah](https://github.com/oktaviorezap/final-task-pbi-dataengineer-oktaviorezaputra/blob/main/(Full_Code)_OKTAVIO_REZA_PUTRA_TASK_5_DATA_ENGINEER_VIX_BTPNS.ipynb)
 <br>
 
 <br>**Churn (Attrited) Customer before Predicted:**
