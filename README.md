@@ -66,7 +66,6 @@
 - `Total_Trans_Amt`: The total amount of money the customer transferred.
 - `Total_Trans_Ct`: The total number of transactions made by the customer.
 - `Avg_Utilization_Ratio`: Utilization Ratio in banking companies refers to a metric that calculates how much of the total available credit is actually used by a customer at a given time. It is an important measure that helps banks in evaluating the way credit is utilized by their customers. In general, this ratio is calculated as the percentage of credit used compared to the total credit approved.
-- 
 # Determine The Best Model
 ![image](https://github.com/user-attachments/assets/4b7f575b-42d1-4d25-9d70-bfffc4e1dd9d)
 
