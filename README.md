@@ -1,4 +1,10 @@
 # Rakamin Project-Based Internship : Bank BTPN Syariah
+1. **Project Background**
+2. **Dataset Description**
+3. **Determine Best Model**
+4. **Prediction Result (3 Model Algorithms)**
+5. **Business Impact Analysis Implementation**
+6. **Prediction Result Conclusion**
 
 # **Project Description**
 
