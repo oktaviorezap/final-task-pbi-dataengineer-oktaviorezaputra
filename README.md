@@ -4,7 +4,8 @@
 3. **Determine Best Model**
 4. **Prediction Result**
 5. **Business Impact Analysis Implementation**
-6. **Prediction Result Conclusion**
+6. **Business Recommendation (Based On Prediction Result)**
+7. **Prediction Result Conclusion**
 
 # Project Description
 
@@ -87,5 +88,68 @@ Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah
 
 <br>**Churn (Attrited) Customer after Predicted (Catboost Classifier):**
 <br>![image](https://github.com/user-attachments/assets/73e13a67-a7d7-4d56-a31b-f4f4c383cef9)
+
+# Business Recommendation (Based on Prediction Result)
+1. **Leverage Customer Profiles for Personalized Strategies**
+   - **Strategy**: Utilize detailed customer attributes such as Age, Gender, Education Level, Marital Status, and Income Category to segment customers and offer tailored financial solutions.
+   - **Actions**:
+       - Young Customers (Under 30): Offer financial literacy programs and credit-building tools to attract and retain younger demographics. Create targeted campaigns for first-time credit card users.
+       - Higher-Income Categories: Introduce exclusive benefits like higher credit limits, premium cards (e.g., Platinum), and personalized relationship management services.
+       - Dependent Count & Marital Status: Design family-oriented credit products for married customers or those with dependents, such as joint accounts or cashback on family-related expenses.
+         
+2. **Address Churn Indicators from Behavioral Data**
+   - **Strategy**: Use behavioral metrics such as Months_Inactive_12_mon, Contacts_Count_12_mon, and Avg_Utilization_Ratio to identify at-risk customers.
+   - **Actions**:
+       - Inactivity Management: For customers with low activity (high Months_Inactive_12_mon), provide incentives like additional rewards points or exclusive offers to encourage engagement.
+       - Engagement Improvement: Increase contact frequency with customers who have low Contacts_Count_12_mon by sending reminders, personalized offers, and relationship manager outreach.
+       - Utilization Monitoring: Identify customers with very high utilization ratios and offer financial counseling or balance transfer options to avoid default risks.
+
+3. **Improve Product Offerings Based on Card Usage**
+   - **Strategy**: Analyze Card_Category, Total_Trans_Amt, and Total_Trans_Ct to understand spending habits and tailor products accordingly.
+   - **Actions**:
+       - Customers with high Total_Trans_Amt and high Total_Trans_Ct: Offer premium credit card upgrades with higher rewards or cashback to incentivize retention.
+       - Customers with low Total_Trans_Amt: Provide targeted offers like no annual fees for low-spend customers or cashback on specific categories (e.g., groceries, dining).
+         
+4. **Optimize Credit Policies**
+   - **Strategy**: Leverage credit-related metrics like Credit_Limit, Total_Revolving_Bal, and Avg_Open_To_Buy to optimize credit offerings and reduce risk.
+   - **Actions**:
+       - Customers with low Avg_Open_To_Buy and high Total_Revolving_Bal: Provide financial counseling and balance restructuring offers to reduce credit stress.
+       - Customers with low Credit_Limit: Offer targeted credit limit increases based on spending patterns and credit history to encourage higher engagement.
+
+5. **Boost Customer Relationships**
+   - **Strategy**: Use Total_Relationship_Count and Months_on_book to evaluate customer tenure and product engagement.
+   - **Actions**:
+       - For customers with low Total_Relationship_Count: Cross-sell additional financial products such as savings accounts, insurance, or loans to deepen engagement.
+       - For long-tenure customers (high Months_on_book): Reward loyalty with exclusive benefits like reduced fees, higher interest on savings, or personalized investment advisory.
+
+6. **Proactively Manage Attrited Customers**
+   - **Strategy**: Analyze Status and idstatus to understand patterns among attrited customers and design proactive retention strategies.
+   - **Actions**:
+       - Identify common traits among attrited customers (e.g., low Total_Trans_Ct or high Months_Inactive_12_mon) and target similar profiles with preventive retention campaigns.
+       - Offer incentives for reactivation, such as cashback or fee waivers, to recently attrited customers.
+
+7. **Enhance Digital Engagement**
+   - **Strategy**: Use data-driven insights to promote digital banking features and improve customer experience.
+   - **Actions**:
+       - Provide app-based tracking for metrics like Total_Revolving_Bal and Avg_Utilization_Ratio to increase customer awareness of their credit usage.
+       - Create gamified features in the banking app to reward activity, such as badges for low utilization or frequent transactions.
+
+8. **Monitor and Improve Credit Utilization**
+   - **Strategy**: Closely track Avg_Utilization_Ratio to identify risky credit behaviors.
+   - **Actions**:
+       - For customers with high utilization (>70%), offer financial planning tools, balance transfer options, or personalized repayment plans to ease credit stress.
+       - Encourage low utilization (<30%) customers to explore additional products, such as loans or investments, to boost engagement.
+
+9. **Develop a Rewards System**
+    - **Strategy**: Build loyalty by introducing a rewards system tied to metrics like Total_Trans_Ct and Months_on_book.
+    - **Actions**:
+        - Offer tiered rewards based on transaction volume and tenure, such as higher cashback rates for longer-term customers.
+        - Introduce exclusive offers for frequent spenders, such as bonus points for reaching transaction milestones.
+
+10. **Utilize Predictive Analytics for Proactive Retention**
+    - **Strategy**: Continuously use predictive churn models to identify and mitigate potential attrition risks.
+    - **Actions**:
+        - Develop dashboards for real-time monitoring of churn-related metrics, such as inactivity, low utilization, or low engagement.
+        - Implement machine learning models to provide early alerts for at-risk customers and deploy automated outreach campaigns.
 
 
