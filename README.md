@@ -1,4 +1,4 @@
-# Rakamin Project-Based Internship : Bank BTPN Syariah
+# Rakamin Academy Project-Based Internship : Bank BTPN Syariah (Data Engineer)
 1. **Project Background**
 2. **Dataset Description**
 3. **Determine Best Model**
