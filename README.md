@@ -7,17 +7,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .container {
-            display: flex;
-            justify-content: center; /* Membuat gambar rata tengah */
-            gap: 50px; /* Jarak antar gambar */
-        }
-        .container img {
-            width: 400px; /* Ukuran gambar disamakan */
-            height: auto; /* Menjaga proporsi gambar */
-        }
-    </style>
 </head>
 <body>
 
