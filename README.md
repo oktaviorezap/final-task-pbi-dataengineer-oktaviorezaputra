@@ -6,7 +6,7 @@
 5. **Business Impact Analysis Implementation**
 6. **Prediction Result Conclusion**
 
-# **Project Description**
+# Project Description
 
 <!DOCTYPE html>
 <html lang="id">
@@ -42,17 +42,57 @@
   - **The objective** is to equip the management team with actionable information, enabling them to reach out to at-risk customers, offer personalized solutions, and improve overall service quality.
   - This initiative seeks to minimize customer churn and foster long-term customer loyalty, ultimately contributing to the bank’s sustained growth and competitive advantage.
 
+# Dataset Description
+- `CLIENTNUM`: Unique identification number for each customer.
+- `idstatus`: The status ID of the customer, possibly referring to a specific status (e.g. active and inactive).
+- `Status`: The status of the customer (e.g. Existing Customer and Attrited Customer).
+- `Customer_Age` : The age of the customer.
+- `Gender`: The gender of the customer (e.g Male and Female).
+- `Dependent_count` : The number of dependents of the customer (The number of family members who are dependents).
+- `Educationid`: The customer's education level ID, which can refer to a specific education category.
+- `Education_Level`: The customer's education level (e.g. High School, Undergraduate, Graduate, etc).
+- `Maritalid`: The customer's marital status ID, usually indicating the marital status (e.g. Married, Single, etc).
+- `Marital_Status`: The marital status of the customer (e.g Married, Single, etc).
+- `Income_Category`: The income category of the customer divided by income range .
+- `card_categoryid`: The customer's card category ID, which indicates the type of card they have (e.g., credit card, debit card).
+- `Card_Category`: The type of card owned by the customer (e.g., Blue, Silver, Gold and Platinum).
+- `Months_on_book`: The length of time (in months) the customer has been registered or a customer (e.g., duration since joining).
+- `Total_Relationship_Count`: The number of customer relationships with the company, which can refer to the number of products or services owned.
+- `Months_Inactive_12_mon`: Number of months in the last 12 months
+- `Contacts_Count_12_mon`: Number of contacts with the bank in the last 12 months.
+- `Credit_Limit`: The credit limit given to the customer.
+- `Total_Revolving_Bal`: The total unpaid balance on the credit card.
+- `Avg_Open_To_Buy`: The average limit available for use on the credit card.
+- `Total_Trans_Amt`: The total amount of money the customer transferred.
+- `Total_Trans_Ct`: The total number of transactions made by the customer.
+- `Avg_Utilization_Ratio`: Utilization Ratio in banking companies refers to a metric that calculates how much of the total available credit is actually used by a customer at a given time. It is an important measure that helps banks in evaluating the way credit is utilized by their customers. In general, this ratio is calculated as the percentage of credit used compared to the total credit approved.
+- 
 # Determine The Best Model
-<br>![image](https://github.com/user-attachments/assets/eb6143fe-5731-41a2-a132-54946bec48e5)
-<br>![image](https://github.com/user-attachments/assets/b0933c13-7d44-4554-a69c-f32609f9ade6)
+![image](https://github.com/user-attachments/assets/4b7f575b-42d1-4d25-9d70-bfffc4e1dd9d)
+
+<br>
+
+**Model Selection Conclusion:**
+The best model:
+
+- `CatBoost`: Recall training and testing are quite balanced, no indication of overfitting or underfitting.
+- `XGBoost Classifier`: Very good performance with a fairly small difference between training and testing.
+- `Gradient Boosting`: Although there is a slight indication of overfitting, this model still gives a fairly good and balanced performance.
 
 # Project Result
 Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah](https://github.com/oktaviorezap/final-task-pbi-dataengineer-oktaviorezaputra/blob/main/(Full%20Code)%20OKTAVIO_REZA_PUTRA_TASK_5_DATA_ENGINEER_VIX_BTPNS.ipynb)
 <br>
 
 <br>**Churn (Attrited) Customer before Predicted:**
-<br>![image](https://github.com/user-attachments/assets/2d46e087-15b9-4247-9d6f-a8c767de53aa)
+<br>![image](https://github.com/user-attachments/assets/97d9c391-3064-4b71-af58-f1e4e00ebf7c)
 <br>
 
-<br>**Churn (Attrited) Customer after Predicted:**
-<br>![image](https://github.com/user-attachments/assets/98df4d7b-3a58-48e7-86ca-890b6f20e9d5)
+<br>**Churn (Attrited) Customer after Predicted (Catboost Classifier):**
+<br>![image](https://github.com/user-attachments/assets/73e13a67-a7d7-4d56-a31b-f4f4c383cef9)
+
+<br>**Churn (Attrited) Customer after Predicted (XGBoost Classifier):**
+<br>![image](https://github.com/user-attachments/assets/738cd909-9fe5-4542-840e-bd3247c032c3)
+
+<br>**Churn (Attrited) Customer after Predicted (Gradient Boosting Classifier):**
+<br>![Uploading image.png…]()
+
