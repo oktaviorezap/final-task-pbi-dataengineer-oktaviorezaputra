@@ -76,7 +76,6 @@ The best model:
 
 - `CatBoost`: Recall training and testing are quite balanced, no indication of overfitting or underfitting.
 - `XGBoost Classifier`: Very good performance with a fairly small difference between training and testing.
-- `Gradient Boosting`: Although there is a slight indication of overfitting, this model still gives a fairly good and balanced performance.
 
 # Project Result
 Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah](https://github.com/oktaviorezap/final-task-pbi-dataengineer-oktaviorezaputra/blob/main/(Full%20Code)%20OKTAVIO_REZA_PUTRA_TASK_5_DATA_ENGINEER_VIX_BTPNS.ipynb)
