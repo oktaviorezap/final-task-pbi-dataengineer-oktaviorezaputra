@@ -88,7 +88,4 @@ Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah
 <br>**Churn (Attrited) Customer after Predicted (Catboost Classifier):**
 <br>![image](https://github.com/user-attachments/assets/73e13a67-a7d7-4d56-a31b-f4f4c383cef9)
 
-<br>**Churn (Attrited) Customer after Predicted (XGBoost Classifier):**
-<br>![image](https://github.com/user-attachments/assets/738cd909-9fe5-4542-840e-bd3247c032c3)
-
 
