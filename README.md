@@ -93,5 +93,6 @@ Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah
 <br>![image](https://github.com/user-attachments/assets/738cd909-9fe5-4542-840e-bd3247c032c3)
 
 <br>**Churn (Attrited) Customer after Predicted (Gradient Boosting Classifier):**
-<br>![Uploading image.png…]()
+<br>![image](https://github.com/user-attachments/assets/693dd269-14ab-4608-a420-e925fb81d7d8)
+
 
