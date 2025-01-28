@@ -28,7 +28,9 @@
 </body>
 </html>
 
-## **This Final Project is part of the Project-Based Internship by Rakamin Academy x BTPN Syariah Banking Company**
+<br>
+
+**This Final Project is part of the Project-Based Internship by Rakamin Academy x BTPN Syariah Banking Company**
 
 - **Project Background**
   - The bank’s management has observed an increasing number of customers discontinuing their credit card services, which has raised significant concerns.
