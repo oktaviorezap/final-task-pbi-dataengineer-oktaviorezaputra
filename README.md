@@ -73,9 +73,42 @@
 
 ## **Model Selection Conclusion:**
 The best model:
+![image](https://github.com/user-attachments/assets/2b0ceaa4-b75a-4c49-9152-cf04efc90f7e)
 
-- `CatBoost`: Recall training and testing are quite balanced, no indication of overfitting or underfitting.
-- `XGBoost Classifier`: Very good performance with a fairly small difference between training and testing.
+**Model Selection Conclusion:**
+<br>
+Overfitting occurs if the Train Recall is much higher than the Test Recall, indicating that the model fits the training data too well but fails to generalize to the test data.
+
+- `LightGBM`: 0.954 (Train) → 0.827 (Test) (gap = 0.127) ✅ (still reasonable)
+- `XGBoost`: 0.903 → 0.814 (gap = 0.089) ✅ (good)
+- `Gradient Boosting`: 0.916 → 0.812 (gap = 0.104) ✅ (fair)
+- `CatBoost`: 0.889 → 0.805 (gap = 0.084) ✅ (good)
+- `Random Forest`: 0.854 → 0.773 (gap = 0.081) ✅ (good)
+- `AdaBoost`: 0.749 → 0.732 (gap = 0.017) 🔴 (underfitting)
+- `Decision Tree`: 0.751 → 0.713 (gap = 0.038) 🔴 (underfitting)
+- `KNN`: 0.711 → 0.666 (gap = 0.045) 🔴 (underfitting)
+- `Neural Network`: 0.655 → 0.623 (gap = 0.032) 🔴 (underfitting)
+- `Naive Bayes`: 0.593 → 0.608 (gap = -0.015) 🔴 (underfitting)
+- `SVM`: 0.652 → 0.606 (gap = 0.046) 🔴 (underfitting)
+- `Logistic Regression`: 0.497 → 0.452 (gap = 0.045) 🔴 (underfitting)
+
+📌 Interim Conclusion:
+- `LightGBM`, `XGBoost`, `Gradient Boosting`, `CatBoost`, and `Random Forest` are not overfitting and have good balance.
+- `AdaBoost`, `Decision Tree`, `KNN`, `Neural Network`, `Naive Bayes`, `SVM`, and `Logistic Regression` tend to be underfitting, so they are not recommended.
+<br>
+
+✅ `LightGBM` is the best choice because:
+- Has the highest Recall Test (Class 0) (0.827)
+- Not overfitting (train-test gap = 0.127, still reasonable)
+- Boosting-based models tend to be stronger in generalization.
+
+🏆 Best runner-up:
+- `XGBoost` (0.814, gap 0.089)
+- `Gradient Boosting` (0.812, gap 0.104)
+- `CatBoost` (0.805, gap 0.084)
+
+If you want a more balanced model and more stable in generalization, you can choose `XGBoost` or `CatBoost`, as they have smaller train-test gaps.
+Final Conclusion
 
 # Prediction Result
 Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah](https://github.com/oktaviorezap/final-task-pbi-dataengineer-oktaviorezaputra/blob/main/(Full_Code)_OKTAVIO_REZA_PUTRA_TASK_5_DATA_ENGINEER_VIX_BTPNS.ipynb)
