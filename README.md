@@ -3,9 +3,8 @@
 2. **Dataset Description**
 3. **Determine Best Model**
 4. **Prediction Result**
-5. **Business Impact Analysis Implementation**
+5. **Business Impact Analysis**
 6. **Business Recommendation (Based On Prediction Result)**
-7. **Prediction Result Conclusion**
 
 # Project Description
 
@@ -86,8 +85,24 @@ Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah
 <br>![image](https://github.com/user-attachments/assets/97d9c391-3064-4b71-af58-f1e4e00ebf7c)
 <br>
 
+<br>**Churn (Attrited) Customer after Predicted (LightGBM):**
+<br>![image](https://github.com/user-attachments/assets/2939276f-a8cc-4b1b-a518-b920179ee188)
+<br>
+
+<br>**Churn (Attrited) Customer after Predicted (Gradient Boosting):**
+<br>![image](https://github.com/user-attachments/assets/b6a6b4ef-9fcf-4738-8929-874cbc6d238b)
+<br>
+
+<br>**Churn (Attrited) Customer after Predicted (XGBoost):**
+<br>![image](https://github.com/user-attachments/assets/d80d0ffc-79d4-45b6-90e1-5009363a7414)
+<br>
+
 <br>**Churn (Attrited) Customer after Predicted (Catboost Classifier):**
-<br>![image](https://github.com/user-attachments/assets/73e13a67-a7d7-4d56-a31b-f4f4c383cef9)
+<br>![image](https://github.com/user-attachments/assets/b4a9bebe-97c2-44e5-a07f-084c1128bfc5)
+<br>
+
+# Business Impact Analysis
+<br>Although the percentage of churn rate has decreased after prediction (Actual Data : **26.42%**; LightGBM: **19.76%**; Gradient Boosting: **21.27%** ; XGBoost: **** ; Catboost Classifier: ****), we also need to look at the Business Impact of various Business Metrics after Prediction which is seen from **False Positive (Churn predicted as No Churn)** and **False Negative (No Churn predicted as Churn)*** among others that is **Potential Revenue / Loss** to measure the potential Revenue / Loss by Prediction Result.
 
 # Business Recommendation (Based on Prediction Result)
 1. **Leverage Customer Profiles for Personalized Strategies**
