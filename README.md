@@ -135,9 +135,10 @@ Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah
 <br>
 
 # Business Impact Analysis
-<br>Although the percentage of churn rate has decreased after prediction (Actual Data : **26.42%**; LightGBM: **15.42%**; Gradient Boosting: **15.11%** ; XGBoost: **15.03%** ; Catboost Classifier: **14.96**), we also need to look at the Business Impact of various Business Metrics after Prediction which is seen from **False Positive (No Churn predicted as Churn)** and **False Negative (Churn predicted as No Churn)*** among others that is **Potential Revenue / Loss** to measure the potential Revenue / Loss by Prediction Result.
+<br>Although the percentage of churn rate has decreased after prediction (Actual Data : **26.42%**; LightGBM: **15.42%**; Gradient Boosting: **15.11%** ; XGBoost: **15.03%** ; Catboost Classifier: **14.96**), we also need to look at the Business Impact of various Business Metrics after Prediction which is seen from **False Positive (No Churn predicted as Churn)** and **False Negative (Churn predicted as No Churn)*** among others that is **Potential Revenue / Loss** to measure the potential Revenue / Loss by Prediction Result. 
 
 ## Business Impact Analysis Implementation
+Total Transaction Amount : **$$39,564,575**
 <br>
 
 1. **True Positive (TP)**: Attrited Customer (Class 0) actually Predicted as Attrited Customer (Class 0)  
@@ -146,32 +147,32 @@ Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah
 4. **False Negative (FN)**: Attrited Customer (Class 0) Predicted as Existing Customer (Class 1)
 <br>
 
-**LightGBM** (True Positive : 4,662 ; True Negative: 921 ; False Positive: 915 ; False Negative: 452):
-1. **Potential Total Transaction Amount (TP)**: **$4,513,080**
-2. **Potential Total Transaction Amount Loss (FN)**: **$39,259,330**
-3. **Potential Total Transaction Amount Loss (TN)**: **$73,260.60**
-4. **Potential Total Transaction Amount Loss (FP)**: **$63,726.15**
+**LightGBM** (True Positive : 8,379 ; True Negative: 1,441 ; False Positive: 121 ; False Negative: 186):
+1. **Potential Total Transaction Amount (TP)**: **$39,259,330**
+2. **Potential Total Transaction Amount Loss (FN)**: **$522,527**
+3. **Potential Total Transaction Amount Loss (TN)**: **$4,513,080**
+4. **Potential Total Transaction Amount Loss (FP)**: **$305,245**
 
-**Gradient Boosting**(True Positive: 4,716 ; True Negative: 1,080 ; False Positive: 756 ; False Negative: 398):
-1. **Potential Total Transaction Amount (TP)**: **$279,258.61**
-2. **Potential Total Transaction Amount Loss (FN)**: **$35,450.43**
-3. **Potential Total Transaction Amount Loss (TN)**: **$73,260.60**
-4. **Potential Total Transaction Amount Loss (FP)**: **$63,726.15**
+**Gradient Boosting**(True Positive: 8,359 ; True Negative: 1,389 ; False Positive: 141 ; False Negative: 238):
+1. **Potential Total Transaction Amount (TP)**: **$39,214,672**
+2. **Potential Total Transaction Amount Loss (FN)**: **$690,906**
+3. **Potential Total Transaction Amount Loss (TN)**: **$4,344,701**
+4. **Potential Total Transaction Amount Loss (FP)**: **$349,903**
 
-**XGBoost** (True Positive : 4,662 ; True Negative: 921 ; False Positive: 915 ; False Negative: 452):
-1. **Potential Total Transaction Amount (TP)**: **$279,258.61**
-2. **Potential Total Transaction Amount Loss (FN)**: **$35,450.43**
-3. **Potential Total Transaction Amount Loss (TN)**: **$73,260.60**
-4. **Potential Total Transaction Amount Loss (FP)**: **$63,726.15**
+**XGBoost** (True Positive : 8,366 ; True Negative: 1,388 ; False Positive: 134 ; False Negative: 239):
+1. **Potential Total Transaction Amount (TP)**: **$39,239,230**
+2. **Potential Total Transaction Amount Loss (FN)**: **$665,299**
+3. **Potential Total Transaction Amount Loss (TN)**: **$4,370,308**
+4. **Potential Total Transaction Amount Loss (FP)**: **$325,345**
 
-**Catboost Classifier**(True Positive: 4,716 ; True Negative: 1,080 ; False Positive: 756 ; False Negative: 398):
-1. **Potential Total Transaction Amount (TP)**: **$279,258.61**
-2. **Potential Total Transaction Amount Loss (FN)**: **$35,450.43**
-3. **Potential Total Transaction Amount Loss (TN)**: **$73,260.60**
-4. **Potential Total Transaction Amount Loss (FP)**: **$63,726.15**
+**Catboost Classifier**(True Positive: 8,373 ; True Negative: 1,388 ; False Positive: 127 ; False Negative: 239):
+1. **Potential Total Transaction Amount (TP)**: **$39,245,064**
+2. **Potential Total Transaction Amount Loss (FN)**: **$673,204**
+3. **Potential Total Transaction Amount Loss (TN)**: **$4,362,403**
+4. **Potential Total Transaction Amount Loss (FP)**: **$319,511**
 <br>
 
-`LightGBM` truly crowns itself as the best Model Algorithm compared to Gradient Boosting in terms of Model Performance. The Monthly Revenue Potential obtained by the Company if it applies `LightGBM` as an Algorithm Model is $283,650.99, about $4,392.38 more than `Gradient Boosting` which only obtains Potential Monthly Revenue of about $279,258.61.
+`LightGBM` truly crowns itself as the best Model Algorithm compared to Gradient Boosting, XGBoost and Catboost Classifier in terms of Model Performance. The Total Transaction Amount Potential obtained by the Company if it applies `LightGBM` as an Algorithm Model is **$39,259,330**
 
 # Business Recommendation (Based on Prediction Result)
 1. **Leverage Customer Profiles for Personalized Strategies**
