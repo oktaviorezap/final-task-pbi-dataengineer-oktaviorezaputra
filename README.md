@@ -67,13 +67,13 @@
 - `Total_Trans_Ct`: The total number of transactions made by the customer.
 - `Avg_Utilization_Ratio`: Utilization Ratio in banking companies refers to a metric that calculates how much of the total available credit is actually used by a customer at a given time. It is an important measure that helps banks in evaluating the way credit is utilized by their customers. In general, this ratio is calculated as the percentage of credit used compared to the total credit approved.
 # Determine The Best Model
-![image](https://github.com/user-attachments/assets/791d72f2-004a-4fb0-bb4a-068fcb4cc653)
+![image](https://github.com/user-attachments/assets/1cbe7780-55e5-4c17-81a3-c2700982ff54)
 
 <br>
 
 ## **Model Selection Conclusion:**
 The best model:
-![image](https://github.com/user-attachments/assets/2b0ceaa4-b75a-4c49-9152-cf04efc90f7e)
+<br>
 
 **Model Selection Conclusion:**
 <br>
@@ -83,11 +83,11 @@ Overfitting occurs if the Train Recall is much higher than the Test Recall, indi
 - `XGBoost`: 0.903 → 0.814 (gap = 0.089) ✅ (good)
 - `Gradient Boosting`: 0.916 → 0.812 (gap = 0.104) ✅ (fair)
 - `CatBoost`: 0.889 → 0.805 (gap = 0.084) ✅ (good)
-- `Random Forest`: 0.854 → 0.773 (gap = 0.081) ✅ (good)
+- `Random Forest`: 0.851 → 0.756 (gap = 0.095) ✅ (good)
 - `AdaBoost`: 0.749 → 0.732 (gap = 0.017) 🔴 (underfitting)
 - `Decision Tree`: 0.751 → 0.713 (gap = 0.038) 🔴 (underfitting)
 - `KNN`: 0.711 → 0.666 (gap = 0.045) 🔴 (underfitting)
-- `Neural Network`: 0.655 → 0.623 (gap = 0.032) 🔴 (underfitting)
+- `Neural Network`: 0.684 → 0.640 (gap = 0.044) 🔴 (underfitting)
 - `Naive Bayes`: 0.593 → 0.608 (gap = -0.015) 🔴 (underfitting)
 - `SVM`: 0.652 → 0.606 (gap = 0.046) 🔴 (underfitting)
 - `Logistic Regression`: 0.497 → 0.452 (gap = 0.045) 🔴 (underfitting)
@@ -135,7 +135,7 @@ Full Code: [Full Python Code - Churn (Attrited) Customer Prediction BTPN Syariah
 <br>
 
 # Business Impact Analysis
-<br>Although the percentage of churn rate has decreased after prediction (Actual Data : **26.42%**; LightGBM: **19.76%**; Gradient Boosting: **21.27%** ; XGBoost: **** ; Catboost Classifier: ****), we also need to look at the Business Impact of various Business Metrics after Prediction which is seen from **False Positive (Churn predicted as No Churn)** and **False Negative (No Churn predicted as Churn)*** among others that is **Potential Revenue / Loss** to measure the potential Revenue / Loss by Prediction Result.
+<br>Although the percentage of churn rate has decreased after prediction (Actual Data : **26.42%**; LightGBM: **19.76%**; Gradient Boosting: **21.27%** ; XGBoost: **** ; Catboost Classifier: ****), we also need to look at the Business Impact of various Business Metrics after Prediction which is seen from **False Positive (No Churn predicted as Churn)** and **False Negative (Churn predicted as No Churn)*** among others that is **Potential Revenue / Loss** to measure the potential Revenue / Loss by Prediction Result.
 
 # Business Recommendation (Based on Prediction Result)
 1. **Leverage Customer Profiles for Personalized Strategies**
